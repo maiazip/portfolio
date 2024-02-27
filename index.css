@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+
+:root {
+    --color-black: #171717;
+    --color-gray: #262626;
+    --color-white: #f5f5f4;
+    --color-lime: #a3e635;
+    --color-green: #84cc16;
+    --color-yellow: #facc15;
+    --color-transparent: #3131313f;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather';
+    color: var(--color-white);
+}
+
+body {
+    background-color: var(--color-black);
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    width: 100vw;
+    height: 6vh;
+    background-color: var(--color-gray);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header span {
+    color: var(--color-lime);
+    font-size: 1.5rem;
+}
+header p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    text-decoration: 0.1rem solid underline var(--color-lime);
+    text-underline-offset: 0.5rem;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+section h1 {
+    color: var(--color-lime);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+}
+
+section hr {
+    border-color: var(--color-lime);
+}
+
+section div {
+    align-self: flex-start;
+    margin-top: 9.3%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+section div h1 {
+   text-align: center;
+}
+
+section p {
+    font-size: 1.6rem;
+}
+
+
+
+
+
+#imgSvg {
+    width: auto;
+    height: 50vh;
+    margin-top: -6vh;
+}
+
+#sectionCertificates div {
+    width: 80%;
+    display: flex;
+}
+
+#sectionCertificates h1 {
+    align-self: baseline;
+}
+
+#sectionCertificates hr {
+    width: 40vw;
+}
+
+#sectionCertificates div img {
+    width: 40vw;
+    height: 50vh;
+    /* outline: 2px dashed var(--color-lime); */
+    padding: 0.1rem;
+}
+
+#sectionProfileCard div {
+    width: 40%;
+    height: 50%;
+    border: 2px solid var(--color-lime);
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: var(--color-gray);
+}
+
+#imgProfile {
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid var(--color-lime);
+}
+
+#sectionProfileCard h1 {
+    width: 70%;
+}
+
+#sectionProfileCard hr {
+    width: 100%;
+}
+
+#sectionProfileCard p {
+    text-decoration: 2px solid underline var(--color-lime);
+    text-underline-offset: 0.5rem;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100vw;
+    height: 3vh;
+    background-color: var(--color-transparent);
+    position: absolute;
+    top: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+}
