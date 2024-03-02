@@ -1,0 +1,16 @@
+  /* border-right: 0.2rem solid var(--color-lime);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite; */
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
